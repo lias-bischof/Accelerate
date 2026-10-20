@@ -1,0 +1,22 @@
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
+# Rust build output
+target/
+
+# Local databases and their backups/journals
+*.db
+*.db-*
+*.db.*
+*.sqlite
+*.sqlite3
+*.bak
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
