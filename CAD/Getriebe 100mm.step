@@ -6,7 +6,7 @@ HEADER;
 FILE_DESCRIPTION(('HOOPS Exchange Step'),'2;1');
 
 FILE_NAME('/Users/bischof.lias/Library/Containers/com.shapr3d.shapr/Data/tmp/export/temp_export',
-'2026-10-20T16:49:19+02:00',
+'2026-10-20T21:03:28+02:00',
 ('bischof.lias'),
 ('Shapr3D Limited'),
 'HOOPS Exchange 2026.3',
@@ -29,7 +29,7 @@ DATA;
 #12=CARTESIAN_POINT('',(0.,0.,0.));
 #13=DIRECTION('',(0.,0.,1.));
 #14=DIRECTION('',(1.,0.,0.));
-#15=AXIS2_PLACEMENT_3D('',#12,#13,#14);
+#15=AXIS2_PLACEMENT_3D('TS3D_PRODUCT_CSYS',#12,#13,#14);
 #27=CARTESIAN_POINT('',(-0.,-0.,-0.9));
 #28=DIRECTION('',(-0.,0.,-1.));
 #29=DIRECTION('',(-1.,0.,0.));
@@ -24745,7 +24745,7 @@ SURFACE()
 #23=PRODUCT_DEFINITION_SHAPE('','',#25);
 #24702=SHAPE_DEFINITION_REPRESENTATION(#23,#16);
 #11=DRAUGHTING_MODEL('',(#24699),#10);
-#24703=DESCRIPTIVE_REPRESENTATION_ITEM('KEY','/Users/bischof.lias/Library/Containers/com.shapr3d.shapr/Data/tmp/B31C894C-4D3A-48BA-AB59-185BE3599CA4.tmp');
+#24703=DESCRIPTIVE_REPRESENTATION_ITEM('KEY','/Users/bischof.lias/Library/Containers/com.shapr3d.shapr/Data/tmp/5890A0B9-F2FB-48B5-B1E8-61405EB5ABB0.tmp');
 #24704=PROPERTY_DEFINITION('KEY','',#25);
 #24705=REPRESENTATION('',(#24703),#10);
 #24706=PROPERTY_DEFINITION_REPRESENTATION(#24704,#24705);
