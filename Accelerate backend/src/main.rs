@@ -14,7 +14,7 @@ const CHAIN: [[f64; 6]; 6] = [
 #[tokio::main]
 async fn main() -> Result<(), async_nats::Error> {
     logger::init()?;
-    let mut sql = SQLController::create("HSSE-configuration.db")?;
+    let mut sql = SQLController::create("Accelerate-Configuration.db")?;
     match sql.load() {
         Ok(_) => {}
         Err(rusqlite::Error::QueryReturnedNoRows) => {
