@@ -257,7 +257,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Accelerate controls.kicad_pro",
+    "filename": "Motorensteuerung.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -425,18 +425,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Accelerate controls.kicad_sch",
-        "name": "Accelerate controls",
+        "filename": "Motorensteuerung.kicad_sch",
+        "name": "Motorensteuerung",
         "uuid": "bb64c1a2-db1a-44a9-b0f9-f7f96e0222f4"
       }
     ],
-    "used_designators": "A1,M1,PS1-2,U1-2",
+    "used_designators": "A1,C1,M1,PS1-2,R1-2,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "bb64c1a2-db1a-44a9-b0f9-f7f96e0222f4",
-      "Accelerate controls"
+      "Motorensteuerung"
     ]
   ],
   "text_variables": {},
